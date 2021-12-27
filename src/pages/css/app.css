@@ -1,0 +1,275 @@
+.correct {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.incorrect {
+  border: 3px solid red;
+}
+
+/* Página de Jogo */
+
+.card-game{
+  margin: 5%;
+  background-color: green;
+  text-align: center;
+  font-size: 27px;
+}
+
+.awswers-btn {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 5px rgb(153, 153, 153);
+  border-radius: 15px;
+}
+
+.awswers-btn:hover {
+  background-color: white;
+}
+
+.awswers-btn:active {
+  background-color: rgb(64, 155, 67);
+  box-shadow: 0 2px rgb(102, 102, 102);
+  transform: translateY(4px);
+}
+
+.awswers-btn-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.timer-and-next {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.timer {
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px, 10px;
+  flex-grow: 1;
+}
+
+
+.btn-next {
+  border-color: black;
+  border-width: 2px;
+  border-style: double;
+  padding: 5px, 10px;
+  border: 5px;
+  background-color: green;
+  flex-grow: 1;
+}
+
+/* Página de Jogo */
+
+/* -------------------------------------------------- */
+
+/* Pág. Feedback */
+
+.scoreboard {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 15px;
+}
+
+.scoreboard-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.scoreboard > div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.scoreboard > div > span {
+  border-bottom: 1px solid black;
+  font-weight: 800;
+  padding-bottom: 5px;
+}
+
+.feedback-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feedback-buttons {
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.feedback-buttons > a {
+  align-items: center;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.feedback-buttons button {
+  border: 0;
+  background-color: rgb(54,118,183);
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  margin: 0 50px;
+  padding: 10px 30px;
+  transition: 1s;
+  width: 200px;
+}
+
+.feedback-buttons button:hover {
+  background-color: rgba(187, 185, 185, 0.171);
+  color: rgb(149, 173, 197);
+  border: 1px solid rgb(54,118,183);
+  transition: 1s;
+}
+
+.trophy-icon,
+.restart-icon {
+  margin-bottom: 15px;
+  height: 50px;
+  width: 50px;
+}
+
+/* Pág. Feedback */
+
+/* -------------------------------------------------- */
+
+/* Pág. Ranking */
+
+.rankingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.rankingTitle {
+  text-align: center;
+  margin-left: 40px;
+  font-size: 28px;
+}
+
+.rankingList li {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  padding: 10px 20px;
+}
+
+.rankingList li:nth-child(odd) {
+  background-color: rgba(187, 185, 185, 0.171);
+}
+
+.rankingList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding:0;
+}
+
+.rankingList img {
+  border-radius: 8px;
+}
+
+.rankingList span {
+  font-size: 24px;
+}
+
+.rankingBtn {
+  background-color: rgb(54, 118, 183);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-top: 30px;
+  padding: 10px 15px;
+}
+
+.rankingBtn:hover {
+  background-color: rgba(187, 185, 185, 0.171);
+  border: 1px solid rgb(54, 118, 183);
+  color: rgb(54, 118, 183);
+}
+
+/* Pág. Ranking */
+
+/* -------------------------------------------------- */
+
+/* Login Page  */
+
+.logo-img {
+  margin-bottom: 20px;
+  width: 350px;
+}
+
+.inputs-login {
+  align-items: center;
+  border: 8px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-top: 80px;
+  padding: 60px;
+  width: 300px;
+}
+
+.name-login {
+  border-color: rgb(54, 118, 183);
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.email-login {
+  border-color: rgb(54, 118, 183);
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 7px;
+}
+
+.btn-play {
+  background-color: rgb(54, 118, 183);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  margin-left: 10px;
+  width: 115px;
+}
+
+.btn-config {
+  background-color: rgb(54, 118, 183);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+/* Login Page  */
