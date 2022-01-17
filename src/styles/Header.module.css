@@ -1,0 +1,19 @@
+.header {
+  align-items: center;
+  background: rgb(54, 118, 183);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-evenly;
+  padding: 0.7rem 0;
+}
+
+.header img {
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.header span:nth-child( 2 ) {
+  margin-right: 0.5rem;
+}

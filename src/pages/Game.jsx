@@ -4,7 +4,7 @@ import { Redirect } from 'react-router';
 import { connect } from 'react-redux';
 import Timer from '../components/timer';
 import AnswerButtons from '../components/AnswerButtons';
-import './css/app.css';
+import '../styles/app.css';
 import Header from '../components/Header';
 
 class Game extends Component {
@@ -176,7 +176,6 @@ class Game extends Component {
             />
           </div>
           <div className="timer-and-next">
-            <p className="timer">{ `00:${String(seconds).padStart(2, '0')}` }</p>
             <button
               className="btn-next"
               type="button"
@@ -186,6 +185,7 @@ class Game extends Component {
             >
               Next
             </button>
+            <p className="timer">{ `00:${String(seconds).padStart(2, '0')}` }</p>
           </div>
         </div>
       </>
